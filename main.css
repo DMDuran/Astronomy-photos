@@ -1,0 +1,20 @@
+html {
+    background-color: #14213d;
+}
+
+#title {
+    text-align: center;
+    color: #bababa;
+}
+
+hr {
+    background-color: #0a9396;
+    height: 2px;
+    border: 2px solid;
+    transition: 1s;
+}
+
+hr:hover {
+    color: #94d2bd;
+    box-shadow: 0 0.5em 0.5em -0.4em #94d2bd;
+}
