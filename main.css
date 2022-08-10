@@ -1,20 +1,25 @@
 html {
-    background-color: #14213d;
+    background-color: #18171a;
 }
 
 #title {
     text-align: center;
-    color: #bababa;
+    color: #fcfbfe;
 }
 
 hr {
-    background-color: #0a9396;
+    background-color: #0c164f;
     height: 2px;
     border: 2px solid;
     transition: 1s;
 }
 
 hr:hover {
-    color: #94d2bd;
-    box-shadow: 0 0.5em 0.5em -0.4em #94d2bd;
+    color: #ba1e68;
+    box-shadow: 10px 0px 5px #ba1e68;
+}
+
+nav {
+    color: #fcfbfe;
+    font-size: 1rem;
 }
