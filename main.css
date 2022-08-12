@@ -5,21 +5,39 @@ html {
 #title {
     text-align: center;
     color: #fcfbfe;
+    font-family: 'Roboto', sans-serif;
 }
 
-hr {
+/* hr {
     background-color: #0c164f;
     height: 2px;
     border: 2px solid;
     transition: 1s;
-}
+} */
 
-hr:hover {
+/* hr:hover {
     color: #ba1e68;
     box-shadow: 10px 0px 5px #ba1e68;
-}
+} */
 
 nav {
     color: #fcfbfe;
     font-size: 1rem;
+}
+
+/* Setting img size */
+img {
+    width: 30%;
+    /* margin: 1.5%; */
+    margin: calc(10%/7);
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0c164f;
+    width: 30%;
+    margin-left: calc(10%/7);
+    padding: 1.2em 0;
 }
